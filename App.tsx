@@ -9,7 +9,7 @@ import Certifications from './components/Certifications';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { usePortfolioData } from './hooks/usePortfolioData';
+import { usePortfolioData } from './src/hooks/usePortfolioData';
 
 const App: React.FC = () => {
   const data = usePortfolioData();

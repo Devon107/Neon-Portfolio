@@ -1,8 +1,12 @@
 import React from 'react';
-import { EXPERIENCE } from '../constants';
+import { Experience as ExperienceType } from '../types';
 import { Briefcase } from 'lucide-react';
 
-const Experience: React.FC = () => {
+interface ExperienceProps {
+  experiences: ExperienceType[];
+}
+
+const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
   return (
     <section id="experience" className="py-24 bg-black/40">
       <div className="container mx-auto px-6">
@@ -16,16 +20,16 @@ const Experience: React.FC = () => {
           <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-neon-purple via-neon-cyan to-transparent opacity-30"></div>
 
           <div className="space-y-12">
-            {EXPERIENCE.map((exp, index) => (
-              <div 
-                key={exp.id} 
+            {experiences.map((exp, index) => (
+              <div
+                key={exp.id}
                 className={`relative flex flex-col md:flex-row ${
                   index % 2 === 0 ? 'md:flex-row-reverse' : ''
                 } items-center md:items-start gap-8`}
               >
-                
+
                 {/* Timeline Dot */}
-                <div className="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-neon-dark border-2 border-neon-cyan rounded-full z-10 shadow-[0_0_10px_#00f3ff]"></div>
+                <div className="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-neon-dark border-2 border-neon-cyan rounded-full z-10 shadow-[0_0_10px_#00d4ff]"></div>
 
                 {/* Content Card */}
                 <div className={`w-full md:w-1/2 pl-8 md:pl-0 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12 md:text-left'}`}>

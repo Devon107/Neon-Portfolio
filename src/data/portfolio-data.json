@@ -1,0 +1,313 @@
+{
+  "about": {
+    "name": "Alex Rodriguez",
+    "title": "Full Stack Web Developer",
+    "bio": "Passionate about creating beautiful, performant web experiences. Specializing in modern React applications, serverless architectures, and cloud solutions.",
+    "location": "Remote / Mexico City",
+    "email": "hola@miportfolio.com",
+    "phone": "+1 (555) 123-4567",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+  },
+  "hero": {
+    "title": "Full Stack Web Developer",
+    "subtitle": "Crafting digital experiences with code",
+    "description": "I build modern, scalable web applications with a focus on user experience and performance.",
+    "cta": "View My Work",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
+  },
+  "skills": [
+    {
+      "name": "React",
+      "category": "Frontend",
+      "icon": "React"
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend",
+      "icon": "Zap"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Frontend",
+      "icon": "Code"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "icon": "Palette"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "icon": "Server"
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend",
+      "icon": "Network"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Backend",
+      "icon": "Database"
+    },
+    {
+      "name": "AWS",
+      "category": "Backend",
+      "icon": "Cloud"
+    },
+    {
+      "name": "Docker",
+      "category": "Tools",
+      "icon": "Package"
+    },
+    {
+      "name": "Git",
+      "category": "Tools",
+      "icon": "GitBranch"
+    },
+    {
+      "name": "Figma",
+      "category": "Tools",
+      "icon": "Layers"
+    },
+    {
+      "name": "Webflow",
+      "category": "Platform",
+      "icon": "Wand2"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior Frontend Developer",
+      "company": "TechSolutions Inc.",
+      "period": "2021 - Present",
+      "description": "Leading frontend development for scalable React applications. Mentoring junior developers and implementing best practices for code quality and performance.",
+      "technologies": ["React", "TypeScript", "Node.js", "AWS"]
+    },
+    {
+      "id": 2,
+      "role": "Web Developer",
+      "company": "Creative Agency",
+      "period": "2018 - 2021",
+      "description": "Developed full-stack web applications for startups and established brands. Worked with WordPress, Shopify, and custom React solutions.",
+      "technologies": ["React", "WordPress", "Shopify", "JavaScript"]
+    },
+    {
+      "id": 3,
+      "role": "Junior Web Developer",
+      "company": "Digital Startup Hub",
+      "period": "2016 - 2018",
+      "description": "Started my web development journey building responsive websites and learning modern JavaScript frameworks.",
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Neon E-commerce Platform",
+      "shortDescription": "Modern e-commerce platform with real-time inventory",
+      "fullDescription": "A full-featured e-commerce platform built with React and Node.js. Features include real-time inventory management, payment processing, and admin dashboard.",
+      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe API", "Tailwind CSS"],
+      "thumbnail": "https://images.unsplash.com/photo-1460925895917-adf4e565e479?w=500&h=300&fit=crop",
+      "process": [
+        {
+          "title": "Research & Planning",
+          "description": "Analyzed market requirements and competitor solutions",
+          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Design",
+          "description": "Created wireframes and high-fidelity mockups in Figma",
+          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Development",
+          "description": "Built responsive frontend and scalable backend",
+          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Deployment",
+          "description": "Deployed to AWS with CI/CD pipeline",
+          "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
+        }
+      ],
+      "liveUrl": "https://example-ecommerce.com",
+      "repoUrl": "https://github.com/example/ecommerce"
+    },
+    {
+      "id": 2,
+      "title": "Analytics Dashboard",
+      "shortDescription": "Real-time data visualization platform",
+      "fullDescription": "An advanced analytics dashboard that provides real-time insights into user behavior and business metrics. Built with React and D3.js for data visualization.",
+      "technologies": ["React", "D3.js", "Node.js", "MongoDB", "AWS"],
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      "process": [
+        {
+          "title": "Data Architecture",
+          "description": "Designed MongoDB schema for efficient data queries",
+          "imageUrl": "https://images.unsplash.com/photo-1551315679-9c6ae9dec224?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Visualization Design",
+          "description": "Created interactive charts with D3.js",
+          "imageUrl": "https://images.unsplash.com/photo-1501252170392-fb3908b6f3ee?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Backend API",
+          "description": "Built RESTful API with real-time WebSocket support",
+          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+        }
+      ],
+      "liveUrl": "https://example-dashboard.com",
+      "repoUrl": null
+    },
+    {
+      "id": 3,
+      "title": "Portfolio Website - Webflow",
+      "shortDescription": "Creative portfolio site with smooth animations",
+      "fullDescription": "A beautifully designed portfolio website built with Webflow, showcasing creative projects and design expertise.",
+      "technologies": ["Webflow", "JavaScript", "HTML", "CSS"],
+      "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
+      "process": [
+        {
+          "title": "Brand Strategy",
+          "description": "Developed visual identity and brand guidelines",
+          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "Webflow Design",
+          "description": "Created responsive design with Webflow",
+          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+        }
+      ],
+      "liveUrl": "https://example-portfolio.webflow.io",
+      "repoUrl": null
+    },
+    {
+      "id": 4,
+      "title": "Task Management App",
+      "shortDescription": "Collaborative task management tool",
+      "fullDescription": "A web-based task management application with real-time collaboration features, team workspaces, and progress tracking.",
+      "technologies": ["React", "Firebase", "Tailwind CSS", "TypeScript"],
+      "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
+      "process": [
+        {
+          "title": "Requirements Gathering",
+          "description": "Interviewed potential users for feature requirements",
+          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop"
+        },
+        {
+          "title": "MVP Development",
+          "description": "Built minimum viable product with core features",
+          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+        }
+      ],
+      "liveUrl": "https://example-tasks.app",
+      "repoUrl": "https://github.com/example/tasks-app"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Mitchell",
+      "role": "Product Manager",
+      "company": "TechStartup Co.",
+      "content": "Alex delivered exceptional work on our e-commerce platform. His attention to detail and problem-solving skills made the entire project seamless.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "James Chen",
+      "role": "CEO",
+      "company": "Digital Solutions Ltd.",
+      "content": "Working with Alex was a pleasure. He brought fresh ideas to the table and delivered a beautiful, performant dashboard that exceeded our expectations.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Maria Garcia",
+      "role": "Design Lead",
+      "company": "Creative Agency",
+      "content": "Alex's technical expertise combined with his design sensibility resulted in amazing user experiences. Highly recommend!",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Solutions Architect",
+      "organization": "Amazon Web Services",
+      "date": "2023",
+      "url": "https://aws.amazon.com/certification/",
+      "icon": "Cloud"
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Patterns",
+      "organization": "Frontend Masters",
+      "date": "2022",
+      "url": "https://frontendmasters.com/",
+      "icon": "Zap"
+    },
+    {
+      "id": 3,
+      "name": "Full Stack Development Bootcamp",
+      "organization": "TechCodeAcademy",
+      "date": "2021",
+      "url": null,
+      "icon": "Code"
+    },
+    {
+      "id": 4,
+      "name": "Google Cloud Professional",
+      "organization": "Google Cloud",
+      "date": "2023",
+      "url": "https://cloud.google.com/certification",
+      "icon": "Globe"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Building Scalable React Applications",
+      "slug": "building-scalable-react-applications",
+      "excerpt": "Learn the best practices for structuring large React applications with proper code splitting, state management, and performance optimization.",
+      "content": "When building scalable React applications, it's crucial to understand how to structure your code for maintainability and performance. This article covers key concepts like component composition, state management patterns, and optimization techniques that will help you build applications that can grow with your business needs...",
+      "date": "2024-01-15",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "TypeScript Tips for Better Code",
+      "slug": "typescript-tips-for-better-code",
+      "excerpt": "Discover advanced TypeScript patterns and techniques that will make your code more robust and easier to maintain.",
+      "content": "TypeScript is a powerful tool for building robust applications. In this article, we'll explore advanced patterns like utility types, generics, and intersection types that can help you write more type-safe and maintainable code...",
+      "date": "2024-01-08",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "Modern CSS Techniques",
+      "slug": "modern-css-techniques",
+      "excerpt": "Master the latest CSS features including Grid, Flexbox, and Custom Properties for building responsive, beautiful designs.",
+      "content": "CSS has evolved dramatically in recent years. With CSS Grid, Flexbox, and Custom Properties, you now have powerful tools to create responsive, elegant designs. This article explores these modern techniques and how to use them effectively...",
+      "date": "2024-01-01",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+    }
+  ],
+  "contact": {
+    "email": "hola@miportfolio.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Remote / Mexico City",
+    "timezone": "CST"
+  },
+  "social": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com",
+    "instagram": "https://instagram.com",
+    "codepen": "https://codepen.io"
+  }
+}

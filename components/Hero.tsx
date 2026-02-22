@@ -1,7 +1,12 @@
 import React from 'react';
+import { HeroContent } from '../types';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
-const Hero: React.FC = () => {
+interface HeroProps {
+  data: HeroContent;
+}
+
+const Hero: React.FC<HeroProps> = ({ data }) => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-neon-dark">
       {/* Background Blobs */}
@@ -10,17 +15,16 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 z-10 text-center">
         <h2 className="text-neon-cyan font-mono text-sm md:text-base mb-4 tracking-widest uppercase">
-          Diseñador UI/UX & Desarrollador Full Stack
+          {data.subtitle}
         </h2>
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
-          Construyendo el <br />
+          {data.title} <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-cyan">
-            Futuro Digital
+            {data.cta}
           </span>
         </h1>
         <p className="text-gray-400 max-w-2xl mx-auto text-lg md:text-xl mb-10 leading-relaxed">
-          Transformo ideas complejas en experiencias web fluidas, escalables y visualmente impactantes. 
-          Especialista en React, Next.js y Diseño Moderno.
+          {data.description}
         </p>
 
         <div className="flex justify-center space-x-6 mb-16">
@@ -38,7 +42,7 @@ const Hero: React.FC = () => {
 };
 
 const SocialButton: React.FC<{ icon: React.ReactNode; href: string }> = ({ icon, href }) => (
-  <a 
+  <a
     href={href}
     className="p-3 rounded-full border border-white/10 hover:border-neon-purple hover:bg-neon-purple/10 hover:text-white text-gray-400 transition-all duration-300 transform hover:scale-110"
   >

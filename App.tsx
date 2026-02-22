@@ -21,7 +21,7 @@ const App: React.FC = () => {
         <Hero data={data.hero} />
         <About about={data.about} skills={data.skills} />
         <Experience experiences={data.experience} />
-        <Projects projects={data.projects} />
+        <Projects projects={data.projects} socialLinks={data.social} />
         <Testimonials testimonials={data.testimonials} />
         <Certifications certifications={data.certifications} />
         <Blog posts={data.blog} />

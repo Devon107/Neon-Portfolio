@@ -1,313 +1,394 @@
 {
-  "about": {
-    "name": "Alex Rodriguez",
-    "title": "Full Stack Web Developer",
-    "bio": "Passionate about creating beautiful, performant web experiences. Specializing in modern React applications, serverless architectures, and cloud solutions.",
-    "location": "Remote / Mexico City",
-    "email": "hola@miportfolio.com",
-    "phone": "+1 (555) 123-4567",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
-  },
-  "hero": {
-    "title": "Full Stack Web Developer",
-    "subtitle": "Crafting digital experiences with code",
-    "description": "I build modern, scalable web applications with a focus on user experience and performance.",
-    "cta": "View My Work",
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
-  },
-  "skills": [
-    {
-      "name": "React",
-      "category": "Frontend",
-      "icon": "React"
-    },
-    {
-      "name": "Next.js",
-      "category": "Frontend",
-      "icon": "Zap"
-    },
-    {
-      "name": "TypeScript",
-      "category": "Frontend",
-      "icon": "Code"
-    },
-    {
-      "name": "Tailwind CSS",
-      "category": "Frontend",
-      "icon": "Palette"
-    },
-    {
-      "name": "Node.js",
-      "category": "Backend",
-      "icon": "Server"
-    },
-    {
-      "name": "Express.js",
-      "category": "Backend",
-      "icon": "Network"
-    },
-    {
-      "name": "PostgreSQL",
-      "category": "Backend",
-      "icon": "Database"
-    },
-    {
-      "name": "AWS",
-      "category": "Backend",
-      "icon": "Cloud"
-    },
-    {
-      "name": "Docker",
-      "category": "Tools",
-      "icon": "Package"
-    },
-    {
-      "name": "Git",
-      "category": "Tools",
-      "icon": "GitBranch"
-    },
-    {
-      "name": "Figma",
-      "category": "Tools",
-      "icon": "Layers"
-    },
-    {
-      "name": "Webflow",
-      "category": "Platform",
-      "icon": "Wand2"
-    }
-  ],
-  "experience": [
-    {
-      "id": 1,
-      "role": "Senior Frontend Developer",
-      "company": "TechSolutions Inc.",
-      "period": "2021 - Present",
-      "description": "Leading frontend development for scalable React applications. Mentoring junior developers and implementing best practices for code quality and performance.",
-      "technologies": ["React", "TypeScript", "Node.js", "AWS"]
-    },
-    {
-      "id": 2,
-      "role": "Web Developer",
-      "company": "Creative Agency",
-      "period": "2018 - 2021",
-      "description": "Developed full-stack web applications for startups and established brands. Worked with WordPress, Shopify, and custom React solutions.",
-      "technologies": ["React", "WordPress", "Shopify", "JavaScript"]
-    },
-    {
-      "id": 3,
-      "role": "Junior Web Developer",
-      "company": "Digital Startup Hub",
-      "period": "2016 - 2018",
-      "description": "Started my web development journey building responsive websites and learning modern JavaScript frameworks.",
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"]
-    }
-  ],
-  "projects": [
-    {
-      "id": 1,
-      "title": "Neon E-commerce Platform",
-      "shortDescription": "Modern e-commerce platform with real-time inventory",
-      "fullDescription": "A full-featured e-commerce platform built with React and Node.js. Features include real-time inventory management, payment processing, and admin dashboard.",
-      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe API", "Tailwind CSS"],
-      "thumbnail": "https://images.unsplash.com/photo-1460925895917-adf4e565e479?w=500&h=300&fit=crop",
-      "process": [
-        {
-          "title": "Research & Planning",
-          "description": "Analyzed market requirements and competitor solutions",
-          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Design",
-          "description": "Created wireframes and high-fidelity mockups in Figma",
-          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Development",
-          "description": "Built responsive frontend and scalable backend",
-          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Deployment",
-          "description": "Deployed to AWS with CI/CD pipeline",
-          "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
-        }
-      ],
-      "liveUrl": "https://example-ecommerce.com",
-      "repoUrl": "https://github.com/example/ecommerce"
-    },
-    {
-      "id": 2,
-      "title": "Analytics Dashboard",
-      "shortDescription": "Real-time data visualization platform",
-      "fullDescription": "An advanced analytics dashboard that provides real-time insights into user behavior and business metrics. Built with React and D3.js for data visualization.",
-      "technologies": ["React", "D3.js", "Node.js", "MongoDB", "AWS"],
-      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      "process": [
-        {
-          "title": "Data Architecture",
-          "description": "Designed MongoDB schema for efficient data queries",
-          "imageUrl": "https://images.unsplash.com/photo-1551315679-9c6ae9dec224?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Visualization Design",
-          "description": "Created interactive charts with D3.js",
-          "imageUrl": "https://images.unsplash.com/photo-1501252170392-fb3908b6f3ee?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Backend API",
-          "description": "Built RESTful API with real-time WebSocket support",
-          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
-        }
-      ],
-      "liveUrl": "https://example-dashboard.com",
-      "repoUrl": null
-    },
-    {
-      "id": 3,
-      "title": "Portfolio Website - Webflow",
-      "shortDescription": "Creative portfolio site with smooth animations",
-      "fullDescription": "A beautifully designed portfolio website built with Webflow, showcasing creative projects and design expertise.",
-      "technologies": ["Webflow", "JavaScript", "HTML", "CSS"],
-      "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
-      "process": [
-        {
-          "title": "Brand Strategy",
-          "description": "Developed visual identity and brand guidelines",
-          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "Webflow Design",
-          "description": "Created responsive design with Webflow",
-          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
-        }
-      ],
-      "liveUrl": "https://example-portfolio.webflow.io",
-      "repoUrl": null
-    },
-    {
-      "id": 4,
-      "title": "Task Management App",
-      "shortDescription": "Collaborative task management tool",
-      "fullDescription": "A web-based task management application with real-time collaboration features, team workspaces, and progress tracking.",
-      "technologies": ["React", "Firebase", "Tailwind CSS", "TypeScript"],
-      "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
-      "process": [
-        {
-          "title": "Requirements Gathering",
-          "description": "Interviewed potential users for feature requirements",
-          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop"
-        },
-        {
-          "title": "MVP Development",
-          "description": "Built minimum viable product with core features",
-          "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
-        }
-      ],
-      "liveUrl": "https://example-tasks.app",
-      "repoUrl": "https://github.com/example/tasks-app"
-    }
-  ],
-  "testimonials": [
-    {
-      "id": 1,
-      "name": "Sarah Mitchell",
-      "role": "Product Manager",
-      "company": "TechStartup Co.",
-      "content": "Alex delivered exceptional work on our e-commerce platform. His attention to detail and problem-solving skills made the entire project seamless.",
-      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
-    },
-    {
-      "id": 2,
-      "name": "James Chen",
-      "role": "CEO",
-      "company": "Digital Solutions Ltd.",
-      "content": "Working with Alex was a pleasure. He brought fresh ideas to the table and delivered a beautiful, performant dashboard that exceeded our expectations.",
-      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
-    },
-    {
-      "id": 3,
-      "name": "Maria Garcia",
-      "role": "Design Lead",
-      "company": "Creative Agency",
-      "content": "Alex's technical expertise combined with his design sensibility resulted in amazing user experiences. Highly recommend!",
-      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
-    }
-  ],
-  "certifications": [
-    {
-      "id": 1,
-      "name": "AWS Certified Solutions Architect",
-      "organization": "Amazon Web Services",
-      "date": "2023",
-      "url": "https://aws.amazon.com/certification/",
-      "icon": "Cloud"
-    },
-    {
-      "id": 2,
-      "name": "Advanced React Patterns",
-      "organization": "Frontend Masters",
-      "date": "2022",
-      "url": "https://frontendmasters.com/",
-      "icon": "Zap"
-    },
-    {
-      "id": 3,
-      "name": "Full Stack Development Bootcamp",
-      "organization": "TechCodeAcademy",
-      "date": "2021",
-      "url": null,
-      "icon": "Code"
-    },
-    {
-      "id": 4,
-      "name": "Google Cloud Professional",
-      "organization": "Google Cloud",
-      "date": "2023",
-      "url": "https://cloud.google.com/certification",
-      "icon": "Globe"
-    }
-  ],
-  "blog": [
-    {
-      "id": 1,
-      "title": "Building Scalable React Applications",
-      "slug": "building-scalable-react-applications",
-      "excerpt": "Learn the best practices for structuring large React applications with proper code splitting, state management, and performance optimization.",
-      "content": "When building scalable React applications, it's crucial to understand how to structure your code for maintainability and performance. This article covers key concepts like component composition, state management patterns, and optimization techniques that will help you build applications that can grow with your business needs...",
-      "date": "2024-01-15",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
-    },
-    {
-      "id": 2,
-      "title": "TypeScript Tips for Better Code",
-      "slug": "typescript-tips-for-better-code",
-      "excerpt": "Discover advanced TypeScript patterns and techniques that will make your code more robust and easier to maintain.",
-      "content": "TypeScript is a powerful tool for building robust applications. In this article, we'll explore advanced patterns like utility types, generics, and intersection types that can help you write more type-safe and maintainable code...",
-      "date": "2024-01-08",
-      "image": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
-    },
-    {
-      "id": 3,
-      "title": "Modern CSS Techniques",
-      "slug": "modern-css-techniques",
-      "excerpt": "Master the latest CSS features including Grid, Flexbox, and Custom Properties for building responsive, beautiful designs.",
-      "content": "CSS has evolved dramatically in recent years. With CSS Grid, Flexbox, and Custom Properties, you now have powerful tools to create responsive, elegant designs. This article explores these modern techniques and how to use them effectively...",
-      "date": "2024-01-01",
-      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
-    }
-  ],
-  "contact": {
-    "email": "hola@miportfolio.com",
-    "phone": "+1 (555) 123-4567",
-    "location": "Remote / Mexico City",
-    "timezone": "CST"
-  },
-  "social": {
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com",
-    "twitter": "https://twitter.com",
-    "instagram": "https://instagram.com",
-    "codepen": "https://codepen.io"
-  }
+	"about": {
+		"name": "Abinadi Henríquez",
+		"title": "Full Stack Web Developer",
+		"bio": "Llevo más de 6 años construyendo en la web — desde tiendas que generan ventas reales hasta aplicaciones que resuelven problemas reales. Domino WordPress, Shopify, Webflow, Laravel y React, pero lo que realmente me diferencia es que entiendo el negocio detrás del proyecto.",
+		"location": "El Salvador",
+		"email": "elmerg.uam@gmail.com",
+		"phone": "+503 61530128",
+		"image": "/400049335_10228214801187124_5648549841730663410_n.webp"
+	},
+	"hero": {
+		"title": "Full Stack Web Developer",
+		"subtitle": "Crafting digital experiences with code",
+		"description": "I build modern, scalable web applications with a focus on user experience and performance.",
+		"cta": "View My Work",
+		"image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
+	},
+	"skills": [
+		{ "name": "React", "category": "Frontend", "icon": "React" },
+		{ "name": "Next.js", "category": "Frontend", "icon": "Zap" },
+		{ "name": "Tailwind CSS", "category": "Frontend", "icon": "Palette" },
+		{ "name": "JavaScript", "category": "Frontend", "icon": "Code" },
+		{ "name": "HTML5", "category": "Frontend", "icon": "Globe" },
+		{ "name": "CSS", "category": "Frontend", "icon": "Layers" },
+		{ "name": "Bootstrap", "category": "Frontend", "icon": "Layout" },
+		{ "name": "PHP", "category": "Backend", "icon": "Server" },
+		{ "name": "Laravel", "category": "Backend", "icon": "Network" },
+		{ "name": "MySQL", "category": "Backend", "icon": "Database" },
+		{ "name": "SQLite", "category": "Backend", "icon": "Database" },
+		{ "name": "C#", "category": "Backend", "icon": "Code" },
+		{ "name": "WordPress", "category": "Platform", "icon": "Globe" },
+		{ "name": "Shopify", "category": "Platform", "icon": "ShoppingCart" },
+		{ "name": "Webflow", "category": "Platform", "icon": "Wand2" },
+		{ "name": "Divi", "category": "Platform", "icon": "Layers" },
+		{ "name": "Google Tag Manager", "category": "Tools", "icon": "Tag" },
+		{ "name": "Google Analytics", "category": "Tools", "icon": "BarChart" },
+		{ "name": "Git", "category": "Tools", "icon": "GitBranch" }
+	],
+	"experience": [
+		{
+			"id": 1,
+			"role": "Web Developer",
+			"company": "LeadX Studio",
+			"period": "June 2024 - Present",
+			"description": "Desarrollo de sitios web estáticos, e-commerce, aplicativos web y landing pages. Manejo de Google Tag Manager y Google Analytics.",
+			"technologies": [
+				"PHP",
+				"WordPress",
+				"Shopify",
+				"Webflow",
+				"Divi",
+				"JavaScript",
+				"HTML5",
+				"CSS",
+				"Laravel",
+				"MySQL",
+				"Tailwind CSS",
+				"Next.js",
+				"React"
+			]
+		},
+		{
+			"id": 2,
+			"role": "Web Developer",
+			"company": "Vertikal",
+			"period": "Octubre 2021 - Junio 2024",
+			"description": "Desarrollo de sitios web estáticos, e-commerce y landing pages.",
+			"technologies": [
+				"PHP",
+				"WordPress",
+				"Divi",
+				"JavaScript",
+				"HTML5",
+				"CSS",
+				"Laravel"
+			]
+		},
+		{
+			"id": 3,
+			"role": "Web Developer",
+			"company": "UAssistMe",
+			"period": "Octubre 2019 - Julio 2021",
+			"description": "Desarrollo de software para control de empleados 'AppUassistme', sitios web estáticos y e-commerce.",
+			"technologies": [
+				"PHP",
+				"Laravel",
+				"WordPress",
+				"Divi",
+				"JavaScript",
+				"C#",
+				"HTML5",
+				"CSS",
+				"Bootstrap",
+				"SQLite",
+				"MySQL"
+			]
+		},
+		{
+			"id": 4,
+			"role": "Web Developer",
+			"company": "Dive_ Digital",
+			"period": "Octubre 2018 - Julio 2019",
+			"description": "Desarrollo de sitios web estáticos, aplicativos web y landing pages.",
+			"technologies": [
+				"PHP",
+				"WordPress",
+				"JavaScript",
+				"HTML5",
+				"CSS",
+				"Bootstrap",
+				"MySQL"
+			]
+		},
+		{
+			"id": 5,
+			"role": "Jr Developer",
+			"company": "Avalogics",
+			"period": "Marzo 2018 - Agosto 2018",
+			"description": "Desarrollo de sitios web estáticos, primer uso de WordPress.",
+			"technologies": [
+				"PHP",
+				"WordPress",
+				"Divi",
+				"JavaScript",
+				"HTML5",
+				"CSS",
+				"SQLite",
+				"MySQL"
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": 1,
+			"title": "PTO Manager",
+			"shortDescription": "Employee leave management system for vacation and personal day requests",
+			"fullDescription": "PTO Manager is a full-stack web application that streamlines the employee leave request process. Employees can submit vacation requests, personal days, and sick leave through an intuitive dashboard, while managers get a centralized panel to approve or reject requests with real-time team availability calendar. Built to eliminate the friction of email-based PTO workflows and reduce scheduling conflicts across teams.",
+			"technologies": [
+				"React",
+				"Node.js",
+				"Express",
+				"PostgreSQL",
+				"JWT",
+				"Tailwind CSS"
+			],
+			"thumbnail": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500&h=300&fit=crop",
+			"process": [
+				{
+					"title": "Problem Definition",
+					"description": "Identified the inefficiency of managing leave requests via email threads. Mapped out the core actors: employees, managers, and HR admins. Defined the minimum viable flow: request → notify → approve/reject → update balance.",
+					"imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "Data Modeling & Architecture",
+					"description": "Designed the database schema covering users, roles, leave types, leave balances, and request statuses. Defined REST API endpoints for each domain and established role-based access control between employee and manager views.",
+					"imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "UI Design",
+					"description": "Designed wireframes for the employee dashboard (balance summary, request form, history) and the manager panel (team calendar, pending requests queue). Prioritized clarity over complexity for day-to-day usability.",
+					"imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "Development",
+					"description": "Built the React frontend with context-based auth state and protected routes by role. Implemented the Node.js/Express API with JWT authentication, leave balance calculation logic, and conflict detection when multiple team members request the same dates.",
+					"imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+				}
+			],
+			"liveUrl": null,
+			"repoUrl": "https://github.com/tu-usuario/pto-manager"
+		},
+		{
+			"id": 2,
+			"title": "Study Buddy",
+			"shortDescription": "AI-powered flashcard generator for focused topic-based learning",
+			"fullDescription": "Study Buddy is a learning tool that lets users input any subject or topic and automatically generates a set of flashcards for active recall practice. Users can create custom decks, flip through cards in study mode, mark cards as mastered or needs review, and track their progress per topic. Designed for students and self-learners who want a faster way to go from raw material to structured review sessions without manually writing every card.",
+			"technologies": [
+				"React",
+				"Node.js",
+				"OpenAI API",
+				"MongoDB",
+				"Express",
+				"Tailwind CSS"
+			],
+			"thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop",
+			"process": [
+				{
+					"title": "Concept & Scope",
+					"description": "Started from the frustration of spending more time creating study material than actually studying. Defined the core loop: enter a topic → generate flashcards via AI → study with flip interaction → track which cards still need work. Scoped the MVP to a single-user experience without authentication complexity.",
+					"imageUrl": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "AI Prompt Engineering",
+					"description": "Tested multiple prompt strategies against the OpenAI API to reliably return structured question/answer pairs. Settled on a JSON-response prompt with explicit formatting constraints to avoid parsing inconsistencies. Added topic depth control so users can request beginner, intermediate, or advanced cards.",
+					"imageUrl": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "UI & Study Mode",
+					"description": "Designed a clean card flip interface with CSS 3D transforms. Built deck management views for creating, editing, and deleting decks. Added a progress tracker showing mastered vs. pending cards per session using local state with MongoDB persistence.",
+					"imageUrl": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "MVP Completion",
+					"description": "Integrated the full generate → store → study flow. Connected the Express backend to MongoDB for deck and card persistence. Validated the end-to-end experience from topic input to completed study session, then iterated on card layout based on usability feedback.",
+					"imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85a74c40?w=500&h=300&fit=crop"
+				}
+			],
+			"liveUrl": null,
+			"repoUrl": "https://github.com/tu-usuario/study-buddy"
+		},
+		{
+			"id": 3,
+			"title": "Personal Finance Tracker",
+			"shortDescription": "Budget, funds, and wallet management app for personal finance control",
+			"fullDescription": "A personal finance web application that gives users a complete picture of their financial health in one place. Users can define multiple wallets (cash, bank accounts, investment accounts), set monthly budgets per spending category, log transactions, and track fund allocations over time. Built around the principle of intentional budgeting — every dollar is assigned before it is spent — making it practical for users following zero-based or envelope-style budgeting approaches.",
+			"technologies": [
+				"React",
+				"Node.js",
+				"Express",
+				"PostgreSQL",
+				"Chart.js",
+				"Tailwind CSS"
+			],
+			"thumbnail": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=300&fit=crop",
+			"process": [
+				{
+					"title": "Requirements & Financial Logic",
+					"description": "Mapped out the core financial entities: wallets, categories, budgets, transactions, and funds. Defined the calculation rules for available balance per wallet, budget utilization per category, and fund distribution. Researched common personal finance methodologies (zero-based budgeting, envelope system) to inform the data model.",
+					"imageUrl": "https://images.unsplash.com/photo-1460925895917-adf4e565e479?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "Database Schema Design",
+					"description": "Designed a relational schema in PostgreSQL to handle multi-wallet balances, recurring vs. one-time transactions, and fund snapshots over time. Focused on keeping aggregate queries efficient since the dashboard recalculates totals on every load.",
+					"imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "Dashboard & Data Visualization",
+					"description": "Built the main dashboard to surface wallet balances, budget progress bars per category, and a monthly spending breakdown chart using Chart.js. Designed the transaction log with filters by wallet, category, and date range for quick financial auditing.",
+					"imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "MVP Delivery",
+					"description": "Completed the core CRUD flows for wallets, categories, budgets, and transactions. Validated balance recalculation accuracy across transfer scenarios between wallets. Polished the UI for consistent number formatting, currency display, and mobile responsiveness before tagging the initial release.",
+					"imageUrl": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=500&h=300&fit=crop"
+				}
+			],
+			"liveUrl": null,
+			"repoUrl": "https://github.com/tu-usuario/personal-finance-tracker"
+		},
+		{
+			"id": 4,
+			"title": "Vertikal Company — Web & Software Agency",
+			"shortDescription": "Full-service software development agency delivering custom web, e-commerce, and mobile solutions across Latin America",
+			"fullDescription": "Vertikal Company is a software development agency headquartered in San Salvador, El Salvador, with presence in Texas and the Netherlands. Specializing in custom software, web development, e-commerce platforms, and digital marketing, Vertikal serves clients ranging from local SMEs to international brands like Tigo Panama, Ria Latam International, and Analiza Laboratorios. During my time on the team, I contributed to frontend and web development projects across multiple client accounts, working within an agile workflow that covers discovery, UI design, development, QA, and deployment. Vertikal also operates Arka Software, their proprietary e-commerce platform built for the Central American market.",
+			"technologies": [
+				"WordPress",
+				"WooCommerce",
+				"Shopify",
+				"JavaScript",
+				"PHP",
+				"React",
+				"REST APIs",
+				"Figma"
+			],
+			"thumbnail": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&h=300&fit=crop",
+			"process": [
+				{
+					"title": "Client Discovery & Requirements",
+					"description": "Each project started with a structured discovery phase: understanding the client's business model, defining functional requirements, identifying technical constraints, and setting delivery timelines. Projects ranged from landing pages and WooCommerce stores to custom web applications with third-party API integrations.",
+					"imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "UI Design & Prototyping",
+					"description": "Wireframes and high-fidelity mockups were produced in Figma before any code was written. Design decisions were validated with the client and the internal team, ensuring the final product aligned with both brand guidelines and usability standards before entering development.",
+					"imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "Development & Integrations",
+					"description": "Built and maintained web solutions primarily on WordPress and WooCommerce, with custom theme and plugin development. Worked on API integrations for payment gateways, CRMs, and third-party services. Collaborated in an agile environment with defined sprints, code reviews, and version control via Git.",
+					"imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+				},
+				{
+					"title": "QA, Delivery & Handoff",
+					"description": "Projects went through a QA cycle covering cross-browser compatibility, mobile responsiveness, page performance, and functional testing before client delivery. Coordinated staging environments and client training sessions, ensuring smooth handoff and ongoing support coverage.",
+					"imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
+				}
+			],
+			"liveUrl": "https://vertikal.com.sv",
+			"repoUrl": null
+		}
+	],
+	"testimonials": [
+		{
+			"id": 1,
+			"name": "Sarah Mitchell",
+			"role": "Product Manager",
+			"company": "TechStartup Co.",
+			"content": "Alex delivered exceptional work on our e-commerce platform. His attention to detail and problem-solving skills made the entire project seamless.",
+			"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
+		},
+		{
+			"id": 2,
+			"name": "James Chen",
+			"role": "CEO",
+			"company": "Digital Solutions Ltd.",
+			"content": "Working with Alex was a pleasure. He brought fresh ideas to the table and delivered a beautiful, performant dashboard that exceeded our expectations.",
+			"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+		},
+		{
+			"id": 3,
+			"name": "Maria Garcia",
+			"role": "Design Lead",
+			"company": "Creative Agency",
+			"content": "Alex's technical expertise combined with his design sensibility resulted in amazing user experiences. Highly recommend!",
+			"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
+		}
+	],
+	"certifications": [
+		{
+			"id": 1,
+			"name": "AWS Certified Solutions Architect",
+			"organization": "Amazon Web Services",
+			"date": "2023",
+			"url": "https://aws.amazon.com/certification/",
+			"icon": "Cloud"
+		},
+		{
+			"id": 2,
+			"name": "Advanced React Patterns",
+			"organization": "Frontend Masters",
+			"date": "2022",
+			"url": "https://frontendmasters.com/",
+			"icon": "Zap"
+		},
+		{
+			"id": 3,
+			"name": "Full Stack Development Bootcamp",
+			"organization": "TechCodeAcademy",
+			"date": "2021",
+			"url": null,
+			"icon": "Code"
+		},
+		{
+			"id": 4,
+			"name": "Google Cloud Professional",
+			"organization": "Google Cloud",
+			"date": "2023",
+			"url": "https://cloud.google.com/certification",
+			"icon": "Globe"
+		}
+	],
+	"blog": [
+		{
+			"id": 1,
+			"title": "Building Scalable React Applications",
+			"slug": "building-scalable-react-applications",
+			"excerpt": "Learn the best practices for structuring large React applications with proper code splitting, state management, and performance optimization.",
+			"content": "When building scalable React applications, it's crucial to understand how to structure your code for maintainability and performance...",
+			"date": "2024-01-15",
+			"image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+		},
+		{
+			"id": 2,
+			"title": "TypeScript Tips for Better Code",
+			"slug": "typescript-tips-for-better-code",
+			"excerpt": "Discover advanced TypeScript patterns and techniques that will make your code more robust and easier to maintain.",
+			"content": "TypeScript is a powerful tool for building robust applications...",
+			"date": "2024-01-08",
+			"image": "https://images.unsplash.com/photo-1516321318423-f06f70504863?w=500&h=300&fit=crop"
+		},
+		{
+			"id": 3,
+			"title": "Modern CSS Techniques",
+			"slug": "modern-css-techniques",
+			"excerpt": "Master the latest CSS features including Grid, Flexbox, and Custom Properties for building responsive, beautiful designs.",
+			"content": "CSS has evolved dramatically in recent years...",
+			"date": "2024-01-01",
+			"image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop"
+		}
+	],
+	"contact": {
+		"email": "elmerg.uam@gmail.com",
+		"phone": "+503 61530128",
+		"location": "El Salvador",
+		"timezone": "CST"
+	},
+	"social": {
+		"github": "https://github.com/Devon107",
+		"linkedin": "https://www.linkedin.com/in/abinadi-henriquez/",
+		"twitter": "https://x.com/codinadi",
+		"instagram": "https://www.instagram.com/abinadi107/",
+		"codepen": "https://codepen.io/Devon107"
+	}
 }

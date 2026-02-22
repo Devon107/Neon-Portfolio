@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
-import { Project } from '../types';
+import { Project, SocialLinks } from '../types';
 import ProjectModal from './ProjectModal';
 import { ArrowUpRight } from 'lucide-react';
 
 interface ProjectsProps {
   projects: Project[];
+  socialLinks: {
+    github: string;
+    linkedin: string;
+    twitter: string;
+  };
 }
 
-const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+const Projects: React.FC<ProjectsProps> = ({ projects, socialLinks }) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -24,9 +29,9 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">Proyectos Destacados</h2>
             <p className="text-gray-400">Una selección de mi trabajo más reciente.</p>
           </div>
-          <button className="hidden md:flex items-center gap-2 text-neon-cyan hover:text-white transition-colors">
+          <a href={socialLinks.github} className="hidden md:flex items-center gap-2 text-neon-cyan hover:text-white transition-colors">
             Ver GitHub <ArrowUpRight size={18} />
-          </button>
+          </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
